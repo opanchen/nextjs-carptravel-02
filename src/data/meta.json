@@ -1,0 +1,34 @@
+{
+  "manifest": "/meta/site.webmanifest",
+  "title": "Carptravel",
+  "description": "Uncover Carpathian's secrets",
+  "keywords": "Traveling, Carpathian Mountains, Ukraine",
+  "openGraph": {
+    "title": "Carptravel",
+    "description": "Uncover Carpathian's secrets",
+    "siteName": "Carptravel",
+    "locale": "en-US",
+    "images": [
+      {
+        "url": "/meta/ogp-image.jpg",
+        "width": 1200,
+        "heigth": 630,
+        "alt": "Carpathian mountains"
+      }
+    ]
+  },
+  "icons": [
+    {
+      "rel": "icon",
+      "media": "(prefers-color-scheme: light)",
+      "url": "/meta/favicon/icon-light.png",
+      "href": "/meta/favicon/icon-light.png"
+    },
+    {
+      "rel": "icon",
+      "media": "(prefers-color-scheme: dark)",
+      "url": "/meta/favicon/icon-dark.png",
+      "href": "/meta/favicon/icon-dark.png"
+    }
+  ]
+}
