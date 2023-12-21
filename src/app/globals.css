@@ -53,6 +53,18 @@
   background-position: center;
 }
 
+.section {
+  @apply py-[56px] md:py-[64px] xl:py-[104px];
+}
+
+.text-heading {
+  @apply text-[40px] font-thin uppercase leading-[1.4] tracking-[-1.6px] md:text-[67px] md:leading-normal md:tracking-[-2.68px] xl:text-[98px] xl:tracking-[-3.92px];
+}
+
+.text-primary {
+  @apply text-[14px] font-extralight leading-[1.428] md:text-[16px] md:leading-[1.25] xl:text-[18px] xl:leading-[1.333];
+}
+
 /* ! ----------------------------------------- */
 
 .hero {

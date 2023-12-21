@@ -1,4 +1,4 @@
-import { Hero } from '@/components/sections';
+import { About, Hero } from '@/components/sections';
 
 import { fetchPage } from '@/sanity/requests/fetchPage';
 
@@ -9,6 +9,7 @@ export default async function Home() {
   return (
     <>
       <Hero text={hero} />
+      <About text={about} />
       <section className="section"></section>
     </>
   );
