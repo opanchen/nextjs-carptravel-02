@@ -19,9 +19,10 @@ const config: Config = {
     extend: {
       // FONTS
       fontFamily: {
-        inter: ['var(--font-inter)'],
-        karantina: ['var(--font-karantina)'],
+        inter: ['Inter', 'sans-serif'],
+        karantina: ['Karantina', 'sans-serif'],
       },
+
       // COLORS
       colors: {
         white: '#fff',

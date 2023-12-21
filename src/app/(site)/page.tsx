@@ -1,3 +1,5 @@
+import { Hero } from '@/components/sections';
+
 import { fetchPage } from '@/sanity/requests/fetchPage';
 
 export default async function Home() {
@@ -5,8 +7,9 @@ export default async function Home() {
     await fetchPage();
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Home page
-    </main>
+    <>
+      <Hero text={hero} />
+      <section className="section"></section>
+    </>
   );
 }
