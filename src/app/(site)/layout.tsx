@@ -6,6 +6,7 @@ import { getStaticData } from '@/utils/helpers';
 import { Inter, Karantina } from 'next/font/google';
 
 import '../globals.css';
+import { fetchSections } from '@/sanity/requests/fetchSections';
 
 const inter = Inter({
   weight: ['100', '200', '400', '500', '700'],
@@ -39,11 +40,14 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const sections = await fetchSections();
+  const { sections: sectionsStatic } = await getStaticData();
+
   return (
     <html lang="en">
       <body className={`${karantina.className} ${inter.className} app`}>

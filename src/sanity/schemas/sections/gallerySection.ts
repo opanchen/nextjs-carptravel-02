@@ -1,9 +1,11 @@
 import { defineField, defineType } from 'sanity';
+import { elementField } from '../elementField';
 
 export const gallerySection = defineType({
   name: 'gallery',
   type: 'object',
   fields: [
+    elementField,
     defineField({
       name: 'heading',
       type: 'string',

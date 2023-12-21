@@ -1,10 +1,20 @@
 import { defineField, defineType } from 'sanity';
+import { elementField } from '../elementField';
 
 export const heroSection = defineType({
   name: 'hero',
   type: 'object',
   title: 'Hero',
   fields: [
+    // defineField({
+    //   name: 'element',
+    //   type: 'string',
+    //   options: {
+    //     list: ['section', 'form'],
+    //   },
+    // }),
+    elementField,
+
     defineField({
       name: 'heading',
       type: 'string',

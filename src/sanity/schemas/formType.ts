@@ -1,9 +1,12 @@
 import { defineArrayMember, defineField, defineType } from 'sanity';
+import { elementField } from './elementField';
 
 export const formType = defineType({
   name: 'form',
   type: 'object',
   fields: [
+    elementField,
+
     defineField({
       name: 'submitBtnLabel',
       type: 'string',

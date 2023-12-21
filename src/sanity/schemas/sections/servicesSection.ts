@@ -1,10 +1,13 @@
 import { defineArrayMember, defineField, defineType } from 'sanity';
+import { elementField } from '../elementField';
 
 export const servicesSection = defineType({
   name: 'services',
   type: 'object',
   title: 'Services',
   fields: [
+    elementField,
+
     defineField({
       name: 'heading',
       type: 'string',
