@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 
+import { AppBar } from '@/components/layout';
+
 import { fetchMetadata } from '@/sanity/requests/fetchMetadata';
 import { fetchSections } from '@/sanity/requests/fetchSections';
 import { getStaticData } from '@/utils/helpers';
@@ -34,9 +36,14 @@ export default async function RootLayout({
   const sections = await fetchSections();
   const { sections: sectionsStatic } = await getStaticData();
 
+  const navLinks =
+    sections?.filter(({ name }) => name !== 'hero') ||
+    sectionsStatic?.filter(({ name }) => name !== 'hero');
+
   return (
     <html lang="en">
       <body className="app relative">
+        <AppBar links={navLinks} />
         <main className="font-inter">{children}</main>
       </body>
     </html>

@@ -12,6 +12,7 @@
     "@portabletext/react": "^3.0.11",
     "@sanity/vision": "^3.23.0",
     "@tailwindcss/typography": "^0.5.10",
+    "framer-motion": "^10.16.16",
     "next": "14.0.4",
     "next-sanity": "^7.0.4",
     "react": "^18",
