@@ -33,6 +33,7 @@ export type CareerSectionText = {
   heading: string;
   subtitle: string;
   tagline: string;
+  promotionFormText: string;
   features: {
     _type: string;
     _key: string;

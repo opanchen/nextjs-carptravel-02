@@ -1,4 +1,4 @@
-import { About, Hero } from '@/components/sections';
+import { About, Career, Hero } from '@/components/sections';
 
 import { fetchPage } from '@/sanity/requests/fetchPage';
 
@@ -10,6 +10,7 @@ export default async function Home() {
     <>
       <Hero text={hero} />
       <About text={about} />
+      <Career text={career} form={form} />
       <section className="section"></section>
     </>
   );

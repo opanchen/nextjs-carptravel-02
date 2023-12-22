@@ -73,7 +73,61 @@
   @apply text-[18px] capitalize tracking-[1.8px] md:text-[14px] md:tracking-[1.4px];
 }
 
-/* ! ----------------------------------------- */
+.offer-text-title {
+  @apply text-[14px] leading-[1.428] md:text-[16px] md:leading-[1.25] xl:text-[18px] xl:leading-[1.333];
+}
+
+.offer-text-desc {
+  @apply text-[12px] font-extralight leading-[1.666] xl:leading-[2.0];
+}
+
+/*** Form styles ***/
+
+.form-label {
+  @apply relative flex flex-col gap-[4px] xl:gap-[6px];
+}
+
+.text-form-label {
+  @apply text-[12px] font-extralight leading-[2.0] tracking-[2.4px];
+}
+
+.form-input {
+  @apply bg-gray-light placeholder:text-gray-strong block placeholder:opacity-100 focus:outline-none;
+}
+
+.form-input-phone {
+  background-color: transparent;
+}
+
+.form-input:-webkit-autofill,
+.form-input:-webkit-autofill:hover,
+.form-input:-webkit-autofill:focus,
+.form-input:-webkit-autofill:active {
+  -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.05) inset;
+  transition: background-color 5000s ease-in-out 0s;
+  caret-color: #fff;
+}
+
+.text-input {
+  @apply text-justify text-[13px] font-extralight leading-[1.846] xl:text-[20px] xl:leading-[1.2];
+}
+
+.checkmark::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  background-color: var(--color-background-input);
+}
+
+.confirmation-checkbox:checked ~ .checkmark::after {
+  background-color: #fff;
+}
+
+/*** Background images & some pseudo-elements ***/
 
 .hero {
   background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),

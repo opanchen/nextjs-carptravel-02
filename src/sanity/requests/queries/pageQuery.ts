@@ -32,6 +32,7 @@ export const pageQuery = groq`
             heading,
             subtitle,
             tagline,
+            promotionFormText,
             features
         },
         
