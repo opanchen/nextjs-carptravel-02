@@ -1,13 +1,12 @@
 import { UseFormRegister, FieldErrors } from 'react-hook-form';
-import { CareerFormData } from '@/components/general/CareerForm/types';
-import { FormText } from '@/types';
+import { FormDataType, FormText } from '@/types';
 
 export type InputFieldType = 'text' | 'email' | 'tel';
 
 export type FormFieldProps = {
-  name: keyof CareerFormData;
+  name: keyof FormDataType;
   type: InputFieldType;
-  register: UseFormRegister<CareerFormData>;
+  register: UseFormRegister<FormDataType>;
   formText: FormText;
 
   errors?: FieldErrors;

@@ -6,8 +6,9 @@ import useFormPersist from 'react-hook-form-persist';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { CareerFormData, CareerFormProps } from './types';
 import { FormField, FormSubmitBtn, FormTextArea } from '@/components/ui';
+
+import { CareerFormData, CareerFormProps } from './types';
 
 export const CareerForm: React.FC<CareerFormProps> = ({ text }) => {
   const {
