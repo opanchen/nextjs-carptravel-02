@@ -14,14 +14,13 @@ export async function generateMetadata(): Promise<Metadata> {
   const dynamic = await fetchMetadata();
 
   const {
-    meta: { title, description, keywords, manifest, openGraph, icons },
+    meta: { title, description, keywords, openGraph, icons },
   } = await getStaticData();
 
   return {
     title: dynamic?.title || title,
     description: dynamic?.description || description,
     keywords: dynamic?.keywords || keywords,
-    manifest,
     metadataBase: new URL(baseUrl),
     openGraph: { ...openGraph, url: baseUrl },
     icons,

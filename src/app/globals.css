@@ -162,22 +162,22 @@
 
 .hero {
   background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-    url('/assets/images/mobile/backgrounds/hero/hero.jpg');
+    url('/assets/images/backgrounds/mobile/hero/hero.jpg');
 
   background-image:
     var(--overlay-gradient),
     var(--extra-gradient-medium-top),
-    -webkit-image-set(url('/assets/images/mobile/backgrounds/hero/hero.webp') 1x);
+    -webkit-image-set(url('/assets/images/backgrounds/mobile/hero/hero.webp') 1x);
 }
 
 .section-about {
   background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-    url('/assets/images/mobile/backgrounds/about/about.jpg');
+    url('/assets/images/backgrounds/mobile/about/about.jpg');
 
   background-image:
     var(--overlay-gradient),
     var(--extra-gradient-medium-top),
-    -webkit-image-set(url('/assets/images/mobile/backgrounds/about/about.webp')
+    -webkit-image-set(url('/assets/images/backgrounds/mobile/about/about.webp')
           1x);
 }
 
@@ -216,91 +216,91 @@
 
 .service-atvs {
   background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-    url('/assets/images/mobile/backgrounds/service/service-01-bg.jpg');
+    url('/assets/images/backgrounds/mobile/service/service-01-bg.jpg');
 
   background-image:
     var(--overlay-gradient),
     var(--extra-gradient-medium),
-    -webkit-image-set(url('/assets/images/mobile/backgrounds/service/service-01-bg.webp')
+    -webkit-image-set(url('/assets/images/backgrounds/mobile/service/service-01-bg.webp')
           1x);
 }
 
 .service-climb {
   background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-    url('/assets/images/mobile/backgrounds/service/service-02-bg.jpg');
+    url('/assets/images/backgrounds/mobile/service/service-02-bg.jpg');
 
   background-image:
     var(--overlay-gradient),
     var(--extra-gradient-medium),
-    -webkit-image-set(url('/assets/images/mobile/backgrounds/service/service-02-bg.webp')
+    -webkit-image-set(url('/assets/images/backgrounds/mobile/service/service-02-bg.webp')
           1x);
 }
 
 .service-balloon {
   background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-    url('/assets/images/mobile/backgrounds/service/service-03-bg.jpg');
+    url('/assets/images/backgrounds/mobile/service/service-03-bg.jpg');
 
   background-image:
     var(--overlay-gradient),
     var(--extra-gradient-medium),
-    -webkit-image-set(url('/assets/images/mobile/backgrounds/service/service-03-bg.webp')
+    -webkit-image-set(url('/assets/images/backgrounds/mobile/service/service-03-bg.webp')
           1x);
 }
 
 .service-skydive {
   background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-    url('/assets/images/mobile/backgrounds/service/service-04-bg.jpg');
+    url('/assets/images/backgrounds/mobile/service/service-04-bg.jpg');
 
   background-image:
     var(--overlay-gradient),
     var(--extra-gradient-medium),
-    -webkit-image-set(url('/assets/images/mobile/backgrounds/service/service-04-bg.webp')
+    -webkit-image-set(url('/assets/images/backgrounds/mobile/service/service-04-bg.webp')
           1x);
 }
 
 .service-raft {
   background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-    url('/assets/images/mobile/backgrounds/service/service-05-bg.jpg');
+    url('/assets/images/backgrounds/mobile/service/service-05-bg.jpg');
 
   background-image:
     var(--overlay-gradient),
     var(--extra-gradient-medium),
-    -webkit-image-set(url('/assets/images/mobile/backgrounds/service/service-05-bg.webp')
+    -webkit-image-set(url('/assets/images/backgrounds/mobile/service/service-05-bg.webp')
           1x);
 }
 
 .section-gallery {
   background-image: var(--overlay-gradient-darkest),
     var(--extra-gradient-medium),
-    url('/assets/images/mobile/backgrounds/gallery/gallery-bg.jpg');
+    url('/assets/images/backgrounds/mobile/gallery/gallery-bg.jpg');
 
   background-image:
     var(--overlay-gradient-darkest),
     var(--extra-gradient-medium),
-    -webkit-image-set(url('/assets/images/mobile/backgrounds/gallery/gallery-bg.webp')
+    -webkit-image-set(url('/assets/images/backgrounds/mobile/gallery/gallery-bg.webp')
           1x);
 }
 
 .section-career {
   background-position: center;
   background-image: var(--overlay-gradient-dark), var(--extra-gradient-medium),
-    url('/assets/images/mobile/backgrounds/career/career-large.jpg');
+    url('/assets/images/backgrounds/mobile/career/career-large.jpg');
 
   background-image:
     var(--overlay-gradient-dark),
     var(--extra-gradient-medium),
-    -webkit-image-set(url('/assets/images/mobile/backgrounds/career/career-large.webp')
+    -webkit-image-set(url('/assets/images/backgrounds/mobile/career/career-large.webp')
           1x);
 }
 
 .section-contacts {
   background-image: var(--overlay-gradient-dark), var(--extra-gradient-medium),
-    url('/assets/images/mobile/backgrounds/contact/contacts.jpg');
+    url('/assets/images/backgrounds/mobile/contact/contacts.jpg');
 
   background-image:
     var(--overlay-gradient-dark),
     var(--extra-gradient-medium),
-    -webkit-image-set(url('/assets/images/mobile/backgrounds/contact/contacts.webp')
+    -webkit-image-set(url('/assets/images/backgrounds/mobile/contact/contacts.webp')
           1x);
 }
 
@@ -316,111 +316,111 @@
 
   .hero {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      url('/assets/images/mobile/backgrounds/hero/hero@2x.jpg');
+      url('/assets/images/backgrounds/mobile/hero/hero@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium-top),
-      -webkit-image-set(url('/assets/images/mobile/backgrounds/hero/hero@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/mobile/hero/hero@2x.webp')
             2x);
   }
 
   .section-about {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      url('/assets/images/mobile/backgrounds/about/about@2x.jpg');
+      url('/assets/images/backgrounds/mobile/about/about@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium-top),
-      -webkit-image-set(url('/assets/images/mobile/backgrounds/about/about@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/mobile/about/about@2x.webp')
             2x);
   }
 
   .service-atvs {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/mobile/backgrounds/service/service-01-bg@2x.jpg');
+      url('/assets/images/backgrounds/mobile/service/service-01-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/mobile/backgrounds/service/service-01-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/mobile/service/service-01-bg@2x.webp')
             2x);
   }
 
   .service-climb {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/mobile/backgrounds/service/service-02-bg@2x.jpg');
+      url('/assets/images/backgrounds/mobile/service/service-02-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
-      -webkit-image-set(url('/assets/images/mobile/backgrounds/service/service-02-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/mobile/service/service-02-bg@2x.webp')
             2x);
   }
 
   .service-balloon {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/mobile/backgrounds/service/service-03-bg@2x.jpg');
+      url('/assets/images/backgrounds/mobile/service/service-03-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/mobile/backgrounds/service/service-03-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/mobile/service/service-03-bg@2x.webp')
             2x);
   }
 
   .service-skydive {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/mobile/backgrounds/service/service-04-bg@2x.jpg');
+      url('/assets/images/backgrounds/mobile/service/service-04-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/mobile/backgrounds/service/service-04-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/mobile/service/service-04-bg@2x.webp')
             2x);
   }
 
   .service-raft {
     background-image: vvar(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/mobile/backgrounds/service/service-05-bg@2x.jpg');
+      url('/assets/images/backgrounds/mobile/service/service-05-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/mobile/backgrounds/service/service-05-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/mobile/service/service-05-bg@2x.webp')
             2x);
   }
 
   .section-gallery {
     background-image: var(--overlay-gradient-darkest),
       var(--extra-gradient-medium),
-      url('/assets/images/mobile/backgrounds/gallery/gallery-bg@2x.jpg');
+      url('/assets/images/backgrounds/mobile/gallery/gallery-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient-darkest),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/mobile/backgrounds/gallery/gallery-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/mobile/gallery/gallery-bg@2x.webp')
             2x);
   }
 
   .section-career {
     background-image: var(--overlay-gradient-dark), var(--extra-gradient-medium),
-      url('/assets/images/mobile/backgrounds/career/career-large@2x.jpg');
+      url('/assets/images/backgrounds/mobile/career/career-large@2x.jpg');
 
     background-image:
       var(--overlay-gradient-dark),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/mobile/backgrounds/career/career-large@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/mobile/career/career-large@2x.webp')
             2x);
   }
 
   .section-contacts {
     background-image: var(--overlay-gradient-dark), var(--extra-gradient-medium),
-      url('/assets/images/mobile/backgrounds/contact/contacts@2x.jpg');
+      url('/assets/images/backgrounds/mobile/contact/contacts@2x.jpg');
 
     background-image:
       var(--overlay-gradient-dark),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/mobile/backgrounds/contact/contacts@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/mobile/contact/contacts@2x.webp')
             2x);
   }
 }
@@ -428,12 +428,12 @@
 @media screen and (min-width: 480px) {
   .section-about {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      url('/assets/images/mobile/backgrounds/about/about-large.jpg');
+      url('/assets/images/backgrounds/mobile/about/about-large.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium-top),
-      -webkit-image-set(url('/assets/images/mobile/backgrounds/about/about-large.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/mobile/about/about-large.webp')
             1x);
   }
 }
@@ -443,12 +443,12 @@
   screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .section-about {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      url('/assets/images/mobile/backgrounds/about/about-large@2x.jpg');
+      url('/assets/images/backgrounds/mobile/about/about-large@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium-top),
-      -webkit-image-set(url('/assets/images/mobile/backgrounds/about/about-large@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/mobile/about/about-large@2x.webp')
             2x);
   }
 }
@@ -456,12 +456,12 @@
 @media screen and (min-width: 768px) {
   .hero {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      url('/assets/images/tablet/backgrounds/hero/hero.jpg');
+      url('/assets/images/backgrounds/tablet/hero/hero.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium-top),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/hero/hero.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/hero/hero.webp')
             1x);
   }
 
@@ -489,98 +489,98 @@
 
   .section-about {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      url('/assets/images/tablet/backgrounds/about/about.jpg');
+      url('/assets/images/backgrounds/tablet/about/about.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium-top),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/about/about.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/about/about.webp')
             1x);
   }
 
   .service-atvs {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/service/service-01-bg.jpg');
+      url('/assets/images/backgrounds/tablet/service/service-01-bg.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/service/service-01-bg.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/service/service-01-bg.webp')
             1x);
   }
 
   .service-climb {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/service/service-02-bg.jpg');
+      url('/assets/images/backgrounds/tablet/service/service-02-bg.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/service/service-02-bg.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/service/service-02-bg.webp')
             1x);
   }
   .service-balloon {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/service/service-03-bg.jpg');
+      url('/assets/images/backgrounds/tablet/service/service-03-bg.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/service/service-03-bg.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/service/service-03-bg.webp')
             1x);
   }
   .service-skydive {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/service/service-04-bg.jpg');
+      url('/assets/images/backgrounds/tablet/service/service-04-bg.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/service/service-04-bg.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/service/service-04-bg.webp')
             1x);
   }
   .service-raft {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/service/service-05-bg.jpg');
+      url('/assets/images/backgrounds/tablet/service/service-05-bg.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/service/service-05-bg.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/service/service-05-bg.webp')
             1x);
   }
 
   .section-gallery {
     background-image: var(--overlay-gradient-darkest),
       var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/gallery/gallery-bg.jpg');
+      url('/assets/images/backgrounds/tablet/gallery/gallery-bg.jpg');
 
     background-image:
       var(--overlay-gradient-darkest),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/gallery/gallery-bg.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/gallery/gallery-bg.webp')
             1x);
   }
 
   .section-career {
     background-image: var(--overlay-gradient-dark), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/career/career.jpg');
+      url('/assets/images/backgrounds/tablet/career/career.jpg');
 
     background-image:
       var(--overlay-gradient-dark),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/career/career.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/career/career.webp')
             1x);
   }
 
   .section-contacts {
     background-image: var(--overlay-gradient-dark), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/contact/contacts.jpg');
+      url('/assets/images/backgrounds/tablet/contact/contacts.jpg');
 
     background-image:
       var(--overlay-gradient-dark),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/contact/contacts.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/contact/contacts.webp')
             1x);
   }
 }
@@ -590,112 +590,112 @@
   screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      url('/assets/images/tablet/backgrounds/hero/hero@2x.jpg');
+      url('/assets/images/backgrounds/tablet/hero/hero@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium-top),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/hero/hero@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/hero/hero@2x.webp')
             2x);
   }
 
   .section-about {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      url('/assets/images/tablet/backgrounds/about/about@2x.jpg');
+      url('/assets/images/backgrounds/tablet/about/about@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium-top),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/about/about@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/about/about@2x.webp')
             2x);
   }
 
   .service-atvs {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/service/service-01-bg@2x.jpg');
+      url('/assets/images/backgrounds/tablet/service/service-01-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/service/service-01-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/service/service-01-bg@2x.webp')
             2x);
   }
 
   .service-climb {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/service/service-01-bg@2x.jpg');
+      url('/assets/images/backgrounds/tablet/service/service-01-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/service/service-02-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/service/service-02-bg@2x.webp')
             2x);
   }
 
   .service-balloon {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/service/service-03-bg@2x.jpg');
+      url('/assets/images/backgrounds/tablet/service/service-03-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/service/service-03-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/service/service-03-bg@2x.webp')
             2x);
   }
 
   .service-skydive {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/service/service-04-bg@2x.jpg');
+      url('/assets/images/backgrounds/tablet/service/service-04-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/service/service-04-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/service/service-04-bg@2x.webp')
             2x);
   }
 
   .service-raft {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/service/service-05-bg@2x.jpg');
+      url('/assets/images/backgrounds/tablet/service/service-05-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/service/service-05-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/service/service-05-bg@2x.webp')
             2x);
   }
 
   .section-gallery {
     background-image: var(--overlay-gradient-darkest),
       var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/gallery/gallery-bg@2x.jpg');
+      url('/assets/images/backgrounds/tablet/gallery/gallery-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient-darkest),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/gallery/gallery-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/gallery/gallery-bg@2x.webp')
             2x);
   }
 
   .section-career {
     background-image: var(--overlay-gradient-dark), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/career/career@2x.jpg');
+      url('/assets/images/backgrounds/tablet/career/career@2x.jpg');
 
     background-image:
       var(--overlay-gradient-dark),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/career/career@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/career/career@2x.webp')
             2x);
   }
 
   .section-contacts {
     background-image: var(--overlay-gradient-dark), var(--extra-gradient-medium),
-      url('/assets/images/tablet/backgrounds/contact/contacts@2x.jpg');
+      url('/assets/images/backgrounds/tablet/contact/contacts@2x.jpg');
 
     background-image:
       var(--overlay-gradient-dark),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/tablet/backgrounds/contact/contacts@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/tablet/contact/contacts@2x.webp')
             2x);
   }
 }
@@ -709,7 +709,7 @@
         rgba(0, 37, 49, 0) 40%,
         rgba(0, 37, 49, 0) 100%
       ),
-      url('/assets/images/desktop/backgrounds/hero/hero.jpg');
+      url('/assets/images/backgrounds/desktop/hero/hero.jpg');
 
     background-image:
       var(--overlay-gradient),
@@ -719,7 +719,7 @@
         rgba(0, 37, 49, 0) 40%,
         rgba(0, 37, 49, 0) 100%
       ),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/hero/hero.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/hero/hero.webp')
             1x);
   }
 
@@ -754,7 +754,7 @@
         rgba(0, 37, 49, 0) 65%,
         rgba(0, 24, 38, 0.5) 100%
       ),
-      url('/assets/images/desktop/backgrounds/about/about.jpg');
+      url('/assets/images/backgrounds/desktop/about/about.jpg');
 
     background-image:
       var(--overlay-gradient),
@@ -765,97 +765,97 @@
         rgba(0, 37, 49, 0) 65%,
         rgba(0, 24, 38, 0.5) 100%
       ),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/about/about.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/about/about.webp')
             1x);
   }
 
   .service-atvs {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/service/service-01-bg.jpg');
+      url('/assets/images/backgrounds/desktop/service/service-01-bg.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/service/service-01-bg.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/service/service-01-bg.webp')
             1x);
   }
 
   .service-climb {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/service/service-02-bg.jpg');
+      url('/assets/images/backgrounds/desktop/service/service-02-bg.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/service/service-02-bg.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/service/service-02-bg.webp')
             1x);
   }
 
   .service-balloon {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/service/service-03-bg.jpg');
+      url('/assets/images/backgrounds/desktop/service/service-03-bg.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/service/service-03-bg.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/service/service-03-bg.webp')
             1x);
   }
 
   .service-skydive {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/service/service-04-bg.jpg');
+      url('/assets/images/backgrounds/desktop/service/service-04-bg.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/service/service-04-bg.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/service/service-04-bg.webp')
             1x);
   }
 
   .service-raft {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/service/service-05-bg.jpg');
+      url('/assets/images/backgrounds/desktop/service/service-05-bg.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/service/service-05-bg.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/service/service-05-bg.webp')
             1x);
   }
 
   .section-gallery {
     background-image: var(--overlay-gradient-darkest),
       var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/gallery/gallery-bg.jpg');
+      url('/assets/images/backgrounds/desktop/gallery/gallery-bg.jpg');
 
     background-image:
       var(--overlay-gradient-darkest),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/gallery/gallery-bg.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/gallery/gallery-bg.webp')
             1x);
   }
 
   .section-career {
     background-position: center;
     background-image: var(--overlay-gradient-dark), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/career/career.jpg');
+      url('/assets/images/backgrounds/desktop/career/career.jpg');
 
     background-image:
       var(--overlay-gradient-dark),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/career/career.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/career/career.webp')
             1x);
   }
 
   .section-contacts {
     background-image: var(--overlay-gradient-dark), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/contact/contacts.jpg');
+      url('/assets/images/backgrounds/desktop/contact/contacts.jpg');
 
     background-image:
       var(--overlay-gradient-dark),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/contact/contacts.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/contact/contacts.webp')
             1x);
   }
 }
@@ -871,7 +871,7 @@
         rgba(0, 37, 49, 0) 40%,
         rgba(0, 37, 49, 0) 100%
       ),
-      url('/assets/images/desktop/backgrounds/hero/hero@2x.jpg');
+      url('/assets/images/backgrounds/desktop/hero/hero@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
@@ -881,7 +881,7 @@
         rgba(0, 37, 49, 0) 40%,
         rgba(0, 37, 49, 0) 100%
       ),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/hero/hero@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/hero/hero@2x.webp')
             2x);
   }
 
@@ -894,7 +894,7 @@
         rgba(0, 37, 49, 0) 65%,
         rgba(0, 24, 38, 0.5) 100%
       ),
-      url('/assets/images/desktop/backgrounds/about/about@2x.jpg');
+      url('/assets/images/backgrounds/desktop/about/about@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
@@ -905,96 +905,96 @@
         rgba(0, 37, 49, 0) 65%,
         rgba(0, 24, 38, 0.5) 100%
       ),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/about/about@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/about/about@2x.webp')
             2x);
   }
 
   .service-atvs {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/service/service-01-bg@2x.jpg');
+      url('/assets/images/backgrounds/desktop/service/service-01-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/service/service-01-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/service/service-01-bg@2x.webp')
             2x);
   }
 
   .service-climb {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/service/service-02-bg@2x.jpg');
+      url('/assets/images/backgrounds/desktop/service/service-02-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/service/service-02-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/service/service-02-bg@2x.webp')
             2x);
   }
 
   .service-balloon {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/service/service-03-bg@2x.jpg');
+      url('/assets/images/backgrounds/desktop/service/service-03-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/service/service-03-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/service/service-03-bg@2x.webp')
             2x);
   }
 
   .service-skydive {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/service/service-04-bg@2x.jpg');
+      url('/assets/images/backgrounds/desktop/service/service-04-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/service/service-04-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/service/service-04-bg@2x.webp')
             2x);
   }
 
   .service-raft {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/service/service-05-bg@2x.jpg');
+      url('/assets/images/backgrounds/desktop/service/service-05-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/service/service-05-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/service/service-05-bg@2x.webp')
             2x);
   }
 
   .section-gallery {
     background-image: var(--overlay-gradient-darkest),
       var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/gallery/gallery-bg@2x.jpg');
+      url('/assets/images/backgrounds/desktop/gallery/gallery-bg@2x.jpg');
 
     background-image:
       var(--overlay-gradient-darkest),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/gallery/gallery-bg@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/gallery/gallery-bg@2x.webp')
             2x);
   }
 
   .section-career {
     background-image: var(--overlay-gradient-dark), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/career/career@2x.jpg');
+      url('/assets/images/backgrounds/desktop/career/career@2x.jpg');
 
     background-image:
       var(--overlay-gradient-dark),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/career/career@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/career/career@2x.webp')
             2x);
   }
 
   .section-contacts {
     background-image: var(--overlay-gradient-dark), var(--extra-gradient-medium),
-      url('/assets/images/desktop/backgrounds/contact/contacts@2x.jpg');
+      url('/assets/images/backgrounds/desktop/contact/contacts@2x.jpg');
 
     background-image:
       var(--overlay-gradient-dark),
       var(--extra-gradient-medium),
-      -webkit-image-set(url('/assets/images/desktop/backgrounds/contact/contacts@2x.webp')
+      -webkit-image-set(url('/assets/images/backgrounds/desktop/contact/contacts@2x.webp')
             2x);
   }
 }

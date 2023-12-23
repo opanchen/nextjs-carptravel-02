@@ -5,3 +5,4 @@ export * from './FormErrorMessage';
 export * from './FormField';
 export * from './FormTextArea';
 export * from './FormSubmitBtn';
+export * from './ServicePicture';
