@@ -3,6 +3,7 @@ import { type SchemaTypeDefinition } from 'sanity';
 import { metadata } from '@/sanity/schemas/metadata';
 import { pageType } from './schemas/pageType';
 import { formType } from './schemas/formType';
+import { page404 } from './schemas/page404';
 import {
   aboutSection,
   careerSection,
@@ -23,5 +24,6 @@ export const schema: { types: SchemaTypeDefinition[] } = {
     gallerySection,
     contactsSection,
     formType,
+    page404,
   ],
 };
