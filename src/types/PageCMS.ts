@@ -49,6 +49,13 @@ export type GallerySectionText = {
     nextBtnLabel: string;
     prevBtnLabel: string;
   };
+  galleryItems: {
+    order: number;
+    name: string;
+    desc: string;
+    _type?: string;
+    _key?: string;
+  }[];
 };
 
 export type Input =

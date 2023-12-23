@@ -39,7 +39,8 @@ export const pageQuery = groq`
         _type == "gallery" => {
             _type,
             heading,
-            sliderButtons
+            sliderButtons,
+            galleryItems
         },
         
         _type == "contacts" => {

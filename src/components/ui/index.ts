@@ -6,3 +6,4 @@ export * from './FormField';
 export * from './FormTextArea';
 export * from './FormSubmitBtn';
 export * from './ServicePicture';
+export * from './GalleryPicture';
