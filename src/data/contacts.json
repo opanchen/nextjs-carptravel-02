@@ -1,0 +1,61 @@
+{
+  "heading": "Contact Us",
+  "contactInfo": [
+    {
+      "_key": "contact-info-1",
+      "type": "phone",
+      "labelTag": "Phone number",
+      "items": [
+        {
+          "_key": "num-1",
+          "label": "+38 (098) 12 34 567",
+          "value": "+380981234567"
+        },
+        {
+          "_key": "num-2",
+          "label": "+38 (073) 12 34 567",
+          "value": "+380731234567"
+        }
+      ]
+    },
+    {
+      "_key": "contact-info-2",
+      "type": "email",
+      "labelTag": "E-mail",
+      "items": [
+        {
+          "_key": "email-1",
+          "label": "support@carptravel.com",
+          "value": "support@carptravel.com"
+        }
+      ]
+    },
+    {
+      "_key": "contact-info-3",
+      "type": "socials",
+      "labelTag": "Follow us",
+      "items": [
+        {
+          "_key": "soc-1",
+          "label": "facebook",
+          "value": "https://www.facebook.com/"
+        },
+        {
+          "_key": "soc-2",
+          "label": "instagram",
+          "value": "https://www.instagram.com/"
+        },
+        {
+          "_key": "soc-3",
+          "label": "youtube",
+          "value": "https://www.youtube.com/"
+        },
+        {
+          "_key": "soc-4",
+          "label": "tiktok",
+          "value": "https://www.tiktok.com/"
+        }
+      ]
+    }
+  ]
+}

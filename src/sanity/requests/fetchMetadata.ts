@@ -6,8 +6,7 @@ import { MetadataCMS } from '@/types';
 export const fetchMetadata = async (): Promise<MetadataCMS> => {
   const res: MetadataCMS = await client.fetch(metadataQuery, {
     next: {
-      //   revalidate: 3600, // look for updates to revalidate cache every hour
-      revalidate: 10,
+      revalidate: 3600, // look for updates to revalidate cache every hour
     },
   });
   return res;

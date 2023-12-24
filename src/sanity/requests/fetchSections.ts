@@ -6,9 +6,8 @@ import { SectionList, SectionListResponse } from '@/types/SectionList';
 export const fetchSections = async (): Promise<SectionList> => {
   const res: SectionListResponse = await client.fetch(sectionsQuery, {
     next: {
-      //   revalidate: 3600, // look for updates to revalidate cache every hour
-      revalidate: 10,
+      revalidate: 3600, // look for updates to revalidate cache every hour
     },
   });
-  return res.pageBuilder;
+  return res?.pageBuilder;
 };

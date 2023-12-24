@@ -1,0 +1,40 @@
+{
+  "heading": "We Offer",
+  "offerList": [
+    {
+      "order": 1,
+      "shortcut": "atvs",
+      "title": "ATVS traveling",
+      "tagline": "Feel the adrenaline rush",
+      "description": "Join exciting rafting expeditions on the waterways of the Carpathians. Go through challenging waterways and overcome gusty waves, feel the adrenaline, and enjoy the incredible views of the surrounding mountains."
+    },
+    {
+      "order": 2,
+      "shortcut": "climb",
+      "title": "Rock climbing",
+      "tagline": "Destroy your limitations",
+      "description": "Overcome the peaks of the Carpathians in a unique way - climbing. Make your own way to the heights and find inner peace in the embrace of the mighty rocks."
+    },
+    {
+      "order": 3,
+      "shortcut": "balloon",
+      "title": "Hot air ballooning",
+      "tagline": "Get Inspired",
+      "description": "Feel Zen over the mountain peaks! Hot air ballooning gives you incredible impressions and panoramas of the Carpathians that seem endless."
+    },
+    {
+      "order": 4,
+      "shortcut": "skydive",
+      "title": "Skydiving",
+      "tagline": "Overcome your fears",
+      "description": "Fly in the sky over the Carpathians! Experienced instructors will help you realize your dream of free flight. Remember the incredible emotions and panoramas from a bird's eye view forever."
+    },
+    {
+      "order": 5,
+      "shortcut": "raft",
+      "title": "Rafting",
+      "tagline": "Trust the flow",
+      "description": "Join exciting rafting expeditions on the waterways of the Carpathians. Go through challenging waterways and overcome gusty waves, feel the adrenaline, and enjoy the incredible views of the surrounding mountains."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 export type HeroSectionText = {
-  _type: string;
+  _type?: string;
   heading: string;
   subtitle: string;
   tagline: string;
@@ -8,18 +8,18 @@ export type HeroSectionText = {
 };
 
 export type AboutSectionText = {
-  _type: string;
+  _type?: string;
   heading: string;
   tagline: string;
   text: string[];
 };
 
 export type ServicesSectionText = {
-  _type: string;
+  _type?: string;
   heading: string;
   offerList: {
-    _type: string;
-    _key: string;
+    _type?: string;
+    _key?: string;
     order: number;
     shortcut: string;
     description: string;
@@ -29,13 +29,13 @@ export type ServicesSectionText = {
 };
 
 export type CareerSectionText = {
-  _type: string;
+  _type?: string;
   heading: string;
   subtitle: string;
   tagline: string;
   promotionFormText: string;
   features: {
-    _type: string;
+    _type?: string;
     _key: string;
     title: string;
     description: string;
@@ -43,7 +43,7 @@ export type CareerSectionText = {
 };
 
 export type GallerySectionText = {
-  _type: string;
+  _type?: string;
   heading: string;
   sliderButtons: {
     nextBtnLabel: string;
@@ -67,11 +67,11 @@ export type Input =
   | 'checkbox';
 
 export type FormText = {
-  _type: string;
+  _type?: string;
   submitBtnLabel: string;
   fields: {
-    _type: string;
-    _key: string;
+    _type?: string;
+    _key?: string;
     label: string;
     input: Input;
     placeholder?: string;
@@ -81,15 +81,15 @@ export type FormText = {
 };
 
 export type ContactsSectionText = {
-  _type: string;
+  _type?: string;
   heading: string;
   contactInfo: {
-    _type: string;
+    _type?: string;
     _key: string;
     type: string;
     labelTag: string;
     items: {
-      _type: string;
+      _type?: string;
       _key: string;
       label: string;
       value: string;

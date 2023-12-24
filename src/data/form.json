@@ -1,0 +1,42 @@
+{
+  "submitBtnLabel": "Send",
+  "fields": [
+    {
+      "label": "Full Name",
+      "input": "fullName",
+      "placeholder": "John Smith",
+      "requiredErrorText": "Name is required",
+      "validationErrorText": "Incorrect name"
+    },
+    {
+      "label": "E-mail",
+      "input": "email",
+      "placeholder": "johnsmith@email.com",
+      "requiredErrorText": "Email is required",
+      "validationErrorText": "Invalid email"
+    },
+    {
+      "label": "Position",
+      "input": "position",
+      "placeholder": "Movie maker",
+      "requiredErrorText": "Position is required"
+    },
+    {
+      "label": "Phone",
+      "input": "phone",
+      "placeholder": "(097) 12 34 567",
+      "requiredErrorText": "Phone is required",
+      "validationErrorText": "Incorrect phone"
+    },
+    {
+      "label": "Message",
+      "input": "message",
+      "requiredErrorText": "Message is required"
+    },
+    {
+      "label": "I confirm my consent to the processing of personal data.",
+      "input": "checkbox",
+      "requiredErrorText": "*"
+    }
+  ]
+}

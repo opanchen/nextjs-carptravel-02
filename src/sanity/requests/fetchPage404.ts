@@ -6,8 +6,7 @@ import { Page404 } from '@/types';
 export const fetchPage404 = async (): Promise<Page404> => {
   const res = await client.fetch(page404Query, {
     next: {
-      //   revalidate: 3600, // look for updates to revalidate cache every hour
-      revalidate: 10,
+      revalidate: 3600, // look for updates to revalidate cache every hour
     },
   });
 
