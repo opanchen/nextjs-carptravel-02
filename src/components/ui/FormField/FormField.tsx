@@ -26,7 +26,7 @@ export const FormField: React.FC<FormFieldProps> = ({
         className={`form-label text-form-label ${inputError && 'text-red'}`}
       >
         {text?.label}
-        <div className="bg-gray-light flex items-center gap-[6px] pl-[8px]">
+        <span className="bg-gray-light flex items-center gap-[6px] pl-[8px]">
           <span className="inline-block shrink-0 text-justify text-[13px] font-extralight leading-[1.846] text-white xl:text-[20px] xl:leading-[1.2]">
             + 38
           </span>
@@ -50,7 +50,7 @@ export const FormField: React.FC<FormFieldProps> = ({
               inputError && 'text-red caret-white'
             }`}
           />
-        </div>
+        </span>
 
         {inputError && inputError.message && (
           <FormErrorMessage message={inputError.message as string} />

@@ -33,7 +33,7 @@ export const Hero: React.FC<HeroProps> = ({ text }) => {
 
           <div className="flex flex-col gap-[24px] md:w-[230px] md:gap-[28px] xl:ml-auto xl:w-[294px]">
             <h2 className="absolute right-0 top-0 md:static md:mb-auto md:leading-normal">
-              <p className="flex md:leading-normal">
+              <span className="flex md:leading-normal">
                 <span className="inline-block text-[37px] font-medium leading-none md:text-[67px] md:leading-normal xl:text-[98px]">
                   {sliceTextBlock(subtitle, 0, 1)}
                 </span>
@@ -41,7 +41,7 @@ export const Hero: React.FC<HeroProps> = ({ text }) => {
                 <span className="inline-block text-[37px] font-thin uppercase  leading-none tracking-[1.665px] md:text-[67px] md:leading-normal md:tracking-[8.71px] xl:text-[98px] xl:tracking-normal">
                   {sliceTextBlock(subtitle, 1, 2)}
                 </span>
-              </p>
+              </span>
 
               <span className="inline-block translate-y-[-10px] text-[12px] font-light uppercase leading-none tracking-[9.48px] md:translate-y-[-24px] md:text-[14px] md:tracking-[25.9px] xl:translate-y-[-32px] xl:text-[16px] xl:tracking-[36.48px]">
                 {sliceTextBlock(subtitle, 2)}
