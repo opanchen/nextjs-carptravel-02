@@ -3,3 +3,4 @@ export * from './MobileMenu';
 export * from './CareerForm';
 export * from './ContactForm';
 export * from './GallerySlider';
+export * from './ServiceNav';
