@@ -3,7 +3,11 @@ import Link from 'next/link';
 
 export const Logo: React.FC = () => {
   return (
-    <Link href="/" className="group inline-flex flex-col items-center">
+    <Link
+      href="/"
+      className="group inline-flex flex-col items-center"
+      aria-label="Logo-link to home page of CarpTravel"
+    >
       <Image
         src="/assets/images/logo-element.png"
         width={59}
