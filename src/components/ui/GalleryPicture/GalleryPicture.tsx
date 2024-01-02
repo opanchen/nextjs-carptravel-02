@@ -18,7 +18,8 @@ export const GalleryPicture: React.FC<GalleryPictureProps> = ({
         alt={desc}
         width={606}
         height={429}
-        priority
+        blurDataURL={`/assets/images/gallery/gallery-${num}-${name}.jpg`}
+        placeholder="blur"
         sizes="(min-width: 1200px) 606px, (min-width: 768px) 415px, 100vw"
         className="block h-[187px] w-full md:h-auto md:w-[415px] xl:w-[606px]"
       />

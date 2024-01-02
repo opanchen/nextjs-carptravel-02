@@ -18,7 +18,8 @@ export const ServicePicture: React.FC<ServicePictureProps> = ({
         alt={name}
         width={607}
         height={429}
-        priority
+        placeholder="blur"
+        blurDataURL={`/assets/images/services/service-${num}-${shortcut}.jpg`}
         sizes="(min-width: 1200px) 607px, (min-width: 768px) 463px, 100vw"
         className="h-full w-full object-cover object-center"
       />
