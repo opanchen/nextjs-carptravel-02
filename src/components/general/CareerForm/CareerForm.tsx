@@ -92,7 +92,7 @@ export const CareerForm: React.FC<CareerFormProps> = ({ text }) => {
             className="confirmation-checkbox absolute h-0 w-0 opacity-0"
           />
           <span
-            className={`checkmark relative inline-block h-[22px] w-[22px] shrink-0 cursor-pointer border xl:h-[24px] xl:w-[24px]`}
+            className={`checkmark transition_prop relative inline-block h-[22px] w-[22px] shrink-0 cursor-pointer border hover:border-white/75 xl:h-[24px] xl:w-[24px]`}
           ></span>
           <span>
             {checkboxText?.label + ' '}

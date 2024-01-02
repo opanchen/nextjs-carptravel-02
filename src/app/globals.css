@@ -92,7 +92,7 @@
 }
 
 .form-input {
-  @apply bg-gray-light placeholder:text-gray-strong block placeholder:opacity-100 focus:outline-none;
+  @apply bg-gray-light placeholder:text-gray-strong block placeholder:opacity-100;
 }
 
 .form-input-phone {
@@ -127,10 +127,14 @@
   background-color: #fff;
 }
 
+.confirmation-checkbox:focus ~ .checkmark {
+  @apply border-white/75;
+}
+
 /*** Contacts section ****/
 
 .address-text {
-  @apply relative text-[14px] leading-[1.714] focus:outline-none md:text-[16px] md:leading-[1.5] xl:text-[18px] xl:leading-[1.333];
+  @apply relative text-[14px] leading-[1.714] md:text-[16px] md:leading-[1.5] xl:text-[18px] xl:leading-[1.333];
 }
 
 .address-label {
